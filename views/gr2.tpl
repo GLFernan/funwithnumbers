@@ -7,11 +7,93 @@
     <title> Group 2 </title>
 </head>
 <body style ="background-color:Cornsilk;">
+
 % num= int(num)
-% if num < 1:
+% if num == 0:
+<h3 style ="text-align:center;">Hi! This page was created to log the progress we made along the way and share websites, videos, and pictures we wanted to showcase.</h3>
+<br></br>
+
+<style>
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+/* Spacing (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul {
+  list-style-image: auto;
+}
+.aestheticRed {
+    color:red;
+}
+</style>
+
+<p>Here are some <span class="aestheticRed"> links </span> to videos or websites that helped us:</p>
+
+<ul>
+   <li> Check out <a href ="https://www.w3schools.com/html/default.asp" target ="_blank"> w3schools.com </a> !</li>
+   <li> Check out this <a href="https://www.youtube.com/watch?v=4bUMh2cEJ7c&list=PL2qAEUrbtjqTot_zjXmEXUdxEpDl-R-Su&index=15" target ="_blank"> video </a> that helped us create custom error codes! </li>
+   <li> <a href ="https://github.com/" target ="_blank"> Github.com </a> was useful to upload our code and let it reach the public!
+   <li> <a href ="https://elementsofcomp.wordpress.com/" target ="_blank"> Wordpress.com </a> helped us build up our blog from scratch and track our progress on a daily basis!</li>
+   <li> Not a link, but we would also like to give thanks to our peers, Dr. Kong, and others for their input and help!
+</ul>
+
+<p>Here are some <span class="aestheticRed"> pics </span> of our prototype progression and the group being hard workers:
+<div class="row">
+  <div class="column">
+    <img src="https://cdn.discordapp.com/attachments/760221922817474570/784156153020940298/image0.png" alt="Use of Discord" style="width:85%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.discordapp.com/attachments/760221922817474570/784156155610005514/image0.png" alt="Prototype 1" style="width:85%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.discordapp.com/attachments/760221922817474570/784156180981088336/image1.png" alt="Prototype 2" style="width:85%">
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="https://cdn.discordapp.com/attachments/760221922817474570/783822158975598612/image0.jpg" alt="Notes" style="width:70%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.discordapp.com/attachments/760221922817474570/783844590486159360/IMG_9879.jpg" alt="Yeab!" style="width:70%">
+  </div>
+  <div class="column">
+    <img src="https://cdn.discordapp.com/attachments/760221922817474570/784162259852197948/Screen_Shot_2020-12-03_at_4.00.24_PM.png" alt="Error 500" style="width:130%">
+  </div>
+</div>
+
+<p>Lastly, here are two <span class="aestheticRed"> gifs </span> that may cheer you up through these troubling times! <span class="aestheticRed"> :) </span> </p>
+<div class="row">
+  <div class="column">
+    <img src="https://media.giphy.com/media/TKeFYrNibQmqM1EcDK/giphy.gif" alt="Brain" style="width:70%">
+  </div>
+  <div class="column">
+    <img src="https://media.giphy.com/media/Lnuq0IFLhyt6v61Qeo/giphy.gif" alt="Pretty Much" style="width:70%">
+  </div>
+</div>
+
+% elif num < 0:
+
 <h1 style="color:red;"> Please refrain from inputting an integer less than 1!</h1>
+
 % else:
-<h1 style ="border:3px solid DarkGoldenRod;color:CornflowerBlue;text-align:center;">Group 2</h1>
+
+<h1 style ="border:3px solid DarkGoldenRod;color:CornflowerBlue;text-align:center;">Group 2: Geyson, Raeshawn, Jessica, Trahmon, and Yeabsira</h1>
 
 <style>
 img {
@@ -100,7 +182,7 @@ style ="width:50%;">
 <p style ="color:BlueViolet;">{{out}}</p>
 
 % if num <= 168:
-<p> This table shows all perfect squares 144 or
+<p> This table shows all perfect squares up to 144:</p>
 <style>
 table, th, td {
   border: 2px solid black;
