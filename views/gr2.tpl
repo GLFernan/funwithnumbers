@@ -47,7 +47,7 @@ ul {
 <ul>
    <li> Check out <a href ="https://www.w3schools.com/html/default.asp" target ="_blank"> w3schools.com </a> !</li>
    <li> Check out this <a href="https://www.youtube.com/watch?v=4bUMh2cEJ7c&list=PL2qAEUrbtjqTot_zjXmEXUdxEpDl-R-Su&index=15" target ="_blank"> video </a> that helped us create custom error codes! </li>
-   <li> <a href ="https://github.com/" target ="_blank"> Github.com </a> was useful to upload our code and let it reach the public!
+   <li> <a href ="https://github.com/GLFernan/funwithnumbers" target ="_blank"> Github.com </a> was useful to upload our code and let it reach the public!
    <li> <a href ="https://elementsofcomp.wordpress.com/" target ="_blank"> Wordpress.com </a> helped us build up our blog from scratch and track our progress on a daily basis!</li>
    <li> Not a link, but we would also like to give thanks to our peers, Dr. Kong, and others for their input and help!
 </ul>
